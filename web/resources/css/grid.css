@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2019, 2:42:34 AM
+    Author     : Q
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center-block{
+    margin-left: 40%;
+    float: none !important;
+}
+.border-5{
+    border-width: 5px !important;
+    border-color: orange !important;
+    padding-left: 10px !important;
+    font-weight: bold;
+    height: 30px !important;
+}
+.border-cart{
+    border-width: 2px !important;
+    border-color: red !important;
+    font-weight: bold;
+}
+.nav-center{
+    margin-left: 30%;
+}
+
+.width-fit{
+    padding: 0 !important;
+
+}
+.product-item{
+    margin: 15px 0 !important;
+}
+
+
+.tag-a{
+    color: black;
+    font-size: 14px;
+}
+.tag-a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.tag-a-active{
+     padding: 3px;
+     border: black solid 1px;
+     pointer-events: none;
+}
+
+.star_rating{
+    font-size: 14px !important;
+}
+.star_rating-small{
+    font-size: 11px !important;
+}
+
+.no-border{
+    border: none;
+}
+.no-padding{
+    margin-top: 5px !important;
+    padding: 0;
+    text-align: center;
+}
+.checked{
+    color: orange;
+}
+.star_rating{}
+@media (max-width: 767px){
+    .center-block{
+    margin-left: 0;
+    float: none !important;
+}
+}
+.max-lines {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   font-size: 14px;
+   line-height: 1.2em;     /* khoảng cách dòng */
+   max-height: 33px;      /* Chiều cao tối đa */
+   -webkit-line-clamp: 2; /* Số dòng hiển thị */
+   -webkit-box-orient: vertical;
+}
+.max-lines-small {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   font-size: 12px;
+   line-height: 1.2em;     /* khoảng cách dòng */
+   max-height: 28px;   /*   Chiều cao tối đa */
+   -webkit-line-clamp: 1; /* Số dòng hiển thị */
+   -webkit-box-orient: vertical;
+}
+
+
+.bg-gray{
+    background-color: #f4f5f7;
+    font-size: 14px !important;
+    border: none !important;
+    padding: 5px 22.5px !important;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.btn-sq {
+  height: 29px !important;
+}
+#dropdown-sort-by{
+    background-color: transparent;
+    border: none;
+    width: 120px;
+    font-size: 14px !important;
+}
+#dropdown-show{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    font-size: 14px !important;
+}
+.dropdown-menu{
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-item{
+    border: none;
+    font-size: 14px !important;
+}
+.dropdown-item:hover{
+    background-color: orange !important;
+}
+
+.f-14{
+    font-size: 14px !important;
+}
+
+.dropdown-item-sort{
+    width: 120px !important;
+    padding-left: 14px !important;
+}
+.dropdown-item-show{
+    width: 30px !important;
+    padding-left: 5px !important;
+}
+.tag-active{
+    color: orange;
+}
+
+.item-hover{
+    visibility: hidden;
+    color: rgba(255,0,0,0.5) !important;
+}
+.item-hover:hover{
+    color: rgba(255,0,0,1) !important;
+
+}
+
+
+.product-item:hover .item-hover{
+    visibility: visible;
+}
