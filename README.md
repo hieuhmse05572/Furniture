@@ -2,4 +2,6 @@
 
 Netbeans & MS SQL Server 
 
-using Spring MVC & Hibernate
+Using Bootstrap, Spring MVC & Hibernate
+
+View screenshot of website in simple folder
